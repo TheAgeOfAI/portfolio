@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #142B57;
+    padding: 3%;
+    margin: 10%;
   }
   
   .left-section {
@@ -13,6 +14,9 @@
   .center-section {
     flex-grow: 1;
     text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .right-section {
@@ -24,6 +28,7 @@
     border: none;
     cursor: pointer;
     margin-right: 10px;
+    color: white;
   }
   
   .button:hover {

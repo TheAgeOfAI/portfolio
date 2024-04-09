@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
       <Header
         buttons={{
-          left: ['Home', 'Contact', 'About Me'],
-          right: ['Account']
+          left: ['Home', 'Contact', 'About Me']
+          // right: ['Account']
         }}
       />
       </header>
