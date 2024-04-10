@@ -8,7 +8,6 @@ function App() {
       <Header
         buttons={{
           left: ['Home', 'Contact', 'About Me']
-          // right: ['Account']
         }}
       />
       </header>
