@@ -3,7 +3,7 @@ import './App.css';
 
 function Header({ buttons }) {
   return (
-    <div className="container-fluid absolute-head py-3">
+    <div className="container-fluid absolute-head py-3 fixed-top">
 		<div className="row align-items-center justify-content-between">
 			{/* <div className="col-3 my-1"> */}
 			<div className="col-lg-3 col-md-4 col-12 my-1"> 
