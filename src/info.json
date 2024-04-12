@@ -1,0 +1,42 @@
+[
+    [
+        {
+            "id" : 1,
+            "title" : "My Mission",
+            "description" :"It’s easy to do great things when you believe in what you do. That’s why I’m committed to helping more people like you, every day.",
+            "img" : "./static/1.jpg"
+        },
+        {
+            "id" : 2,
+            "title" : "My Skills",
+            "description" : "We all have our strengths. I’ve perfected mine so you can focus on yours. Get in touch to find out how I can help.",
+            "img" : "./static/1.jpg"
+        },
+        {
+            "id" : 3,
+            "title" : "My Values",
+            "description" : "My business is more than just a job. Each time I take on a new project, I make sure it aligns with my core set of values so I know I can deliver great results.",
+            "img" : "./static/1.jpg"
+        }
+    ],
+    [
+            {
+                "id" : 1,
+                "title" : "My Clients",
+                "description" : "Because I'm experienced, reliable, and focused on results, I've had the privilege of working with a host of fantastic clients.",
+                "img" : "./static/1.jpg"
+            },
+            {
+                "id" : 2,
+                "title" : "My Motivation",
+                "description" : "My work is my purpose, my driving force. It's the reason I get up every day and do what I do. Most importantly, it keeps pushing me to achieve bigger and better things with each new challenge.",
+                "img" : "./static/1.jpg"
+            },
+            {
+                "id" : 3,
+                "title" : "My Story",
+                "description" : "We all have a passion. This is mine! From an early age, I decided to master my craft. And I’ve been learning ever since.",
+                "img" : "./static/1.jpg"
+            }
+    ]
+]

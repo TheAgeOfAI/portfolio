@@ -6,21 +6,21 @@ function Header({ buttons }) {
     <div className="container-fluid absolute-head py-3">
 		<div className="row align-items-center justify-content-between">
 			<div className="col-3 my-1">
-				<div className="d-flex flex-row m-auto">
+				<div className="d-flex flex-row">
 					{buttons.left.map((button, index) => (
-						<div className="p-2 mx-3">
-							<a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 text-light" href="#" key={index}>{button}</a>
+						<div className="d-flex p-2 mx-3">
+							<a className="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 text-light" href="#" key={index}>{button}</a>
 						</div>
 					))}
 				</div>
 			</div>
 			<div className="col-3 text-center my-1">
-				<a class="link-offset-2 text-light link-offset-3-hover link-underline link-underline-opacity-0" href="#" >Portfolio</a>
+				<a className="link-offset-2 text-light link-offset-3-hover link-underline link-underline-opacity-0" href="/" >Portfolio</a>
 			</div>
 			<div className="col-3 my-1">
 				<div className="d-flex flex-rwo justify-content-end">
 					<div className="mx-3">
-						<a class="link-offset-2 link-info link-offset-3-hover link-underline link-underline-opacity-0" href="#" >Portfolio</a>
+						<a className="link-offset-2 link-info link-offset-3-hover link-underline link-underline-opacity-0" href="#" >Portfolio</a>
 					</div>
 				</div>
 			</div>

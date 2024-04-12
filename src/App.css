@@ -1,4 +1,14 @@
 .absolute-head {
     background-color: #142B57;
 }
- 
+
+.my-home-card {
+    background-image: url("./static/1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: 150px;
+}
