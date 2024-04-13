@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Card from './Card';
+import {Card, VerCard} from './Cards';
 import data from './info.json';
 
-function InfoCard() {
+const InfoCard = () => {
 
     return (
         <div className='container-fluid p-5'>
@@ -23,4 +23,21 @@ function InfoCard() {
     );
 }
 
-export default InfoCard;
+const VerInfoCard = () => {
+    
+    return (
+        <div className='container-fluid p-5 bg-primary'>
+            <div className='row justify-content-between align-items-center'>
+                <div className='row'>
+                    <h3>
+                        What makes me different ?
+                    </h3>
+                </div>
+                <VerCard
+                    info={data[1]}
+                />
+            </div>
+        </div>
+    )
+}
+export {InfoCard, VerInfoCard};

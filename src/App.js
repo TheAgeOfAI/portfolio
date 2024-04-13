@@ -1,7 +1,7 @@
 import './App.css';
 import HomeCard from './topPage';
 import Header from './Header';
-import InfoCard from './otherCard';
+import {InfoCard, VerInfoCard} from './otherCards';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       />
       <HomeCard />  
       <InfoCard />
+      <VerInfoCard />
       </header>
     </div>
   );
